@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  
+  <title itemprop="name">java期末作业myQQ | 楊澤華の奇妙なblog</title>
+  
+    <link rel="shortcut icon" href="/images/favicon.ico">
+  
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+SerifMerriweather|Merriweather+Sans|Source+Code+Pro|Ubuntu:400,700|Noto+Serif+SC" media="all">
+  <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+  <link rel="stylesheet" id="saukra_css-css" href="/css/style.css" type="text/css" media="all">
+  <link rel="stylesheet" href="/css/lib.min.css" media="all">
+  <link rel="stylesheet" href="/css/font.css" media="all">
+  <link rel="stylesheet" href="/css/insight.css" media="all">
+  <link rel="stylesheet" href="/css/jquery.fancybox.min.css" media="all">
+  <link rel="stylesheet" href="/css/zoom.css" media="all">
+  <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<!--   <link rel="stylesheet" id="saukra_css-css" href="https://2heng.xin/wp-content/cache/autoptimize/css/autoptimize_ad42a61f4c7d4bdd9f91afcff6b5dda5.css
+" type="text/css" media="all"> -->
+  <script>
+  /*Initial Variables*/
+  var mashiro_option = new Object();
+  var mashiro_global = new Object();
+  mashiro_option.NProgressON = true;
+  /* 
+   * 邮箱信息之类的东西可以填在这里，这些js变量基本都作用于sakura-app.js
+   * 这样的设置仅是为了方便在基于PHP开发的主题中设置js变量，既然移植到了Node上，我想或许可以精简这一逻辑吧
+   */
+  mashiro_option.email_domain = "";
+  mashiro_option.email_name = "";
+  mashiro_option.cookie_version_control = "";
+  mashiro_option.qzone_autocomplete = false;
+  mashiro_option.site_name = "Amadeusmzt";
+  mashiro_option.author_name = "";
+  mashiro_option.site_url = "/http://amadeusmzt.github.io";
+  mashiro_option.v_appId = "jvAeRazroIdQOig9bmQjeQgE-gzGzoHsz";
+  mashiro_option.v_appKey = "DbDB0aOrg1vQiDmycfeDUOs4";
+  mashiro_option.mathjax = "0";
+  mashiro_option.qq_api_url = "https://api.mashiro.top/qqinfo/"; 
+  mashiro_option.qq_avatar_api_url = "https://api.mashiro.top/qqinfo/";
+
+  // mashiro_option.jsdelivr_css_src = "https://cdn.jsdelivr.net/gh/moezx/cdn@3.4.5/css/lib.min.css";
+  // mashiro_option.float_player_on = true;
+
+  /*End of Initial Variables*/
+  </script>
+  <script type="text/javascript">
+  var bg = "https://s2.ax1x.com/2019/12/24/l9yf1A.png,https://s2.ax1x.com/2019/12/24/l9R1dP.md.jpg,https://s2.ax1x.com/2019/12/24/l9RBd0.jpg".split(",");
+  var bgindex = Math.floor(Math.random()*bg.length);
+  if (!!window.ActiveXObject || "ActiveXObject" in window) { //is IE?
+    alert('朋友，IE浏览器未适配哦~');
+  }
+  </script>
+  <style type="text/css">
+  .hljs-ln{border-collapse:collapse}.hljs-ln td{padding:0}.hljs-ln-n:before{content:attr(data-line-number)}
+  </style>
+  <style type="text/css">.site-top .lower nav{display:block !important;}.author-profile i,.post-like a,.post-share .show-share,.sub-text,.we-info a,span.sitename,.post-more i:hover,#pagination a:hover,.post-content a:hover,.float-content i:hover{color:#FE9600}.feature i,.download,.navigator i:hover,.links ul li:before,.ar-time i,span.ar-circle,.object,.comment .comment-reply-link,.siren-checkbox-radio:checked + .siren-checkbox-radioInput:after{background:#FE9600}::-webkit-scrollbar-thumb{background:#FE9600}.download,.navigator i:hover,.link-title,.links ul li:hover,#pagination a:hover,.comment-respond input[type='submit']:hover{border-color:#FE9600}.entry-content a:hover,.site-info a:hover,.comment h4 a,#comments-navi a.prev,#comments-navi a.next,.comment h4 a:hover,.site-top ul li a:hover,.entry-title a:hover,#archives-temp h3,span.page-numbers.current,.sorry li a:hover,.site-title a:hover,i.iconfont.js-toggle-search.iconsearch:hover,.comment-respond input[type='submit']:hover{color:#FE9600}.comments .comments-main{display:block !important;}.comments .comments-hidden{display:none !important;}background-position:center center;background-attachment:inherit;}
+  </style>
+</head>
+</html>
+<body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
+  <div class="scrollbar" id="bar">
+  </div>
+  <a href="#" class="cd-top faa-float animated"></a>
+  <section id="main-container">
+    <div class="headertop filter-dim">
+  <div id="banner_wave_1"></div>
+  <div id="banner_wave_2"></div>
+  <figure id="centerbg" class="centerbg">
+    <div class="focusinfo no-select">
+      <div class="header-tou">
+        <a href="/http://amadeusmzt.github.io">
+          <img src="https://s2.ax1x.com/2019/12/23/lpgrrt.png">
+        </a>
+      </div>
+      <div class="header-info">
+        <p>CQNU算法与竞赛协会会长</p>
+        <div class="top-social_v2">
+          <li id="bg-pre">
+            <img class="flipx" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/next-b.svg">
+          </li>
+          
+            
+              
+                <li>
+                  <a href="/https://github.com/AmadeusMzt/AmadeusMzt.github.io" target="_blank" class="social-github" title="github">
+                    <img src="https://s2.ax1x.com/2019/12/24/l9yjcn.png">
+                  </a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="/#" target="_blank" class="social-github" title="sina">
+                    <img src="https://s2.ax1x.com/2019/12/24/l96gbV.png">
+                  </a>
+                </li>
+              
+            
+              
+                <li class="wechat">
+                  <a href="/#">
+                    <img src="https://s2.ax1x.com/2019/12/24/l9q0eO.png">
+                  </a>
+                  <div class="wechatInner">
+                    <img src="https://s2.ax1x.com/2019/12/25/lFrN4O.png">
+                  </div>
+                </li>
+              
+            
+          
+          <li id="bg-next">
+            <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/next-b.svg">
+          </li>
+        </div>
+      </div>
+    </div>
+  </figure>
+  <div id="video-container" style="">
+    <video style="object-fit: fill" id="bgvideo" class="video" video-name="" src="" width="auto" preload="auto">
+    </video>
+    <div id="video-btn" class="loadvideo videolive">
+    </div>
+    <div id="video-add">
+    </div>
+    <div class="video-stu">
+    </div>
+  </div>
+  <div class="headertop-down faa-float animated" onclick="headertop_down()">
+    <span>
+      <i class="fa fa-chevron-down" aria-hidden="true">
+      </i>
+    </span>
+  </div>
+</div>
+    <div id="page" class="site wrapper">
+      <header class="site-header no-select gizle sabit" role="banner">
+  <div class="site-top">
+    <div class="site-branding">
+      <span class="site-title">
+        <span class="logolink moe-mashiro">
+          <a href="/">
+            <span class="sakurasono">Amadeusmzt</span>
+            <span class="shironeko"></span>
+          </a>
+        </span>
+      </span>
+    </div>
+    <div class="searchbox search-form-submit">
+      <i class="iconfont js-toggle-search iconsearch icon-search">
+      </i>
+    </div>
+    <div id="show-nav" class="showNav mobile-fit">
+      <div class="line line1">
+      </div>
+      <div class="line line2">
+      </div>
+      <div class="line line3">
+      </div>
+    </div>
+    <div class="lower-cantiner">
+      <div class="lower">
+        <nav class="mobile-fit-control hide">
+          <ul id="menu-new" class="menu">
+            
+              <li>
+                <a href="/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-fort-awesome faa-shake" aria-hidden="true"></i>
+                    首页
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="/archives">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-archive faa-shake" aria-hidden="true"></i>
+                    归档
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/categories/技术/">
+                          <i class="fa fa-code" aria-hidden="true"></i>
+                          技术
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/生活/">
+                          <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                          生活
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/资源/">
+                          <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                          资源
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/随想/">
+                          <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                          随想
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/转载/">
+                          <i class="fa fa-book" aria-hidden="true"></i>
+                          转载
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="javascript:;">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-list-ul faa-vertical" aria-hidden="true"></i>
+                    清单
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/tags/悦读/">
+                          <i class="fa fa-th-list faa-bounce" aria-hidden="true"></i>
+                          书单
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/bangumi/">
+                          <i class="fa fa-film faa-vertical" aria-hidden="true"></i>
+                          番组
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/music/">
+                          <i class="fa fa-headphones" aria-hidden="true"></i>
+                          歌单
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/tags/图集/">
+                          <i class="fa fa-photo" aria-hidden="true"></i>
+                          图集
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="/comment/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-pencil-square-o faa-tada" aria-hidden="true"></i>
+                    留言板
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="/links/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-link faa-shake" aria-hidden="true"></i>
+                    友人帐
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="/donate/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-heart faa-pulse" aria-hidden="true"></i>
+                    赞赏
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-leaf faa-wrench" aria-hidden="true"></i>
+                    关于
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/about/">
+                          <i class="fa fa-meetup" aria-hidden="true"></i>
+                          我？
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/theme-sakura/">
+                          <i class="fa iconfont icon-sakura" aria-hidden="true"></i>
+                          主题
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/lab/">
+                          <i class="fa fa-cogs" aria-hidden="true"></i>
+                          Lab
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="/client/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-android faa-vertical" aria-hidden="true"></i>
+                    客户端
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="/atom.xml">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-rss faa-pulse" aria-hidden="true"></i>
+                    RSS
+                  </span>
+                </a>
+                
+              </li>
+            
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+<div class="pattern-center-blank"></div>
+
+  <div class="pattern-center single-center">
+    <!-- 有配图默认渲染第一张 -->
+    <div class="pattern-attachment-img lazyload" style="background-image: url(https://s1.ax1x.com/2020/06/11/tqDOm9.png);" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://s1.ax1x.com/2020/06/11/tqDOm9.png">
+    </div>
+    <header class="pattern-header single-header">
+      <h1 class="entry-title">
+      java期末作业myQQ</h1>
+      <p class="entry-census">
+        <span>
+          <a href="https://space.bilibili.com/24262227">
+            <img src="https://s1.ax1x.com/2020/06/11/tqQf9x.th.png">
+          </a>
+        </span>
+        <span>
+          <a href="https://space.bilibili.com/24262227">杨泽华</a>
+        </span>
+        <span class="bull">
+        ·</span>
+        2020-6-11<span class="bull">
+        ·</span>
+      <span id="busuanzi_value_page_pv"></span>次阅读</p>
+    </header>
+  </div>
+
+<div id="content" class="site-content">
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+        <div class="toc"></div>
+        <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
+        
+        <div class="entry-content">
+          <h2 id="关于最近为啥没发博客"><a href="#关于最近为啥没发博客" class="headerlink" title="关于最近为啥没发博客"></a>关于最近为啥没发博客</h2><font face="黑体" color="black" size="5">2020年席卷全球的疫情让我今年前半年在家摸鱼时间太长了。3月一直到5月16日这一段时间没有怎么学习。<br><br>每天早上应该是8点准备睡觉，签个到就回去继续睡了。下午起床，翘了不少网课（莫学我），然后半下午起来开始自己看没好好听的网课的内容。<br><br>到了晚上：来，上号，下棋。然后下到两三点左右，就去玩整整各种稀奇古怪的东西了，或者是写写算法题和一些协会的文件一直到早上八点，当然我每天也是说今天一定调整作息。<br><br>后面出了一个手游叫公主连结，一直玩了一个月，没怎么出货就删了。<br><img src="https://s1.ax1x.com/2020/06/11/tq0ET0.png" alt><br><br>至于博客，真的是鸽了。。。。而且你还没怎么修改死链啊 喂。。。<br><br>其实这和nt阿里云也有一定的关系，我的服务器和域名在备案阶段，就把我的实例给删了。唉。</font>
+
+<h2 id="java期末作业myqq"><a href="#java期末作业myqq" class="headerlink" title="java期末作业myqq"></a>java期末作业myqq</h2><font face="黑体" color="black" size="5">虽然，我摸鱼了。<br><br>但是我java等专业课还是在好好学啊！（现在在担心高数）<br><br>尤其是去看了一些底层的内容，像是数据结构，数据库原理，计算机组成原理的多线程（当然和java的多线程还是有区别的），和网络的一些内容。<br><br>那这有啥用啊？举个例子，后面看java的Collection和Set接口就比较容易懂了，毕竟脑海里有栈、队列、链表这样的图了，怎么操作还不会吗？<br><br><font color="red" size="6">学习计算机到现在，发现其实有时候不是语法水平限制了我们，而是底层的一些原理限制的了我们。这就和中国IT行业一旦被限制了硬件的技术，就是不小的打击是一个道理，没有硬件基础，何谈做出优秀的软件？</font>
+
+<p>所以我们在学习和将来工作，应该尽量避免走入“码农”这个误区，注重底层的算法和原理的学习，这样能让你写程序的效率和效果更上一层楼。 </p></font><p></p>
+<p><img src="https://s1.ax1x.com/2020/06/11/tqsF3T.png" alt></p>
+<h3 id="第一部分：补充javaweb分层的内容"><a href="#第一部分：补充javaweb分层的内容" class="headerlink" title="第一部分：补充javaweb分层的内容"></a>第一部分：补充javaweb分层的内容</h3><h4 id="为什么要说这个"><a href="#为什么要说这个" class="headerlink" title="为什么要说这个"></a>为什么要说这个</h4> <font face="黑体" color="black" size="5">  首先，我们做myQQ这个项目，它本身就算一个javaweb项目，在敲代码的时候不懂得分层是不行的，最起码，它可以给你提供一个合理的思路和设计结构。<br> </font>
+
+<h4 id="层次概述"><a href="#层次概述" class="headerlink" title="层次概述"></a>层次概述</h4><p>一般情况，我们可以这样来分层：</p>
+<font face="黑体" color="red" size="6"><br>DAO —— Data Access Object数据访问对象（接口）<br>DAOImpl —— DAO的实现类<br>entity —— 数据对象的实体（有些地方叫model层）<br>Service（不是Server）——就是中间层、业务逻辑层（接口）<br>ServiceImpl —— Service的实现类<br>Util —— 自定义工具类<br>Servlet——JAVA WEB小应用（有时叫Controller层）<br><img src="https://s1.ax1x.com/2020/06/11/tqygyD.png" alt><br></font><br><font face="黑体" color="black" size="5"><br>当然，以上这些是约定俗称的，我们自己在开发的也可以对包自己命名，但是这些结构肯定要有。<br>如下图，我们的项目文件<br><img src="https://s1.ax1x.com/2020/06/11/tqy3iq.png" alt><br><br></font>
+
+<h4 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h4><font face="黑体" color="blue" size="5"><br>1. JAVA中Servlet层、Service层 、modle层 、 Dao层的功能区分？<br></font><br><font face="黑体" color="black" size="5"><br>答：Servlet层用于接收请求并且调用对应service层处理请求，是Java各层中最接近浏览器的一层。Service层主要编写具体业务逻辑，每个Service一般包含一组相关的业务逻辑（比如用户管理是一个Service，文章管理是一个Service）。modle/entity层（统称模型层）就是对应的数据库表的实体类，一般每个模型层类对应一个数据库“表”，一般是用于ORM对象关系映射，一方面方便从数据库取数据时保存为类，一方面也方便写入数据库，简而言之就是为了方便操作数据库。Dao层一般用于对数据库的具体操作，包括各种具体的增删改查语句和数据库数据和Java模型的映射。Util层主要用于存在项目各层都有可能出现、不好划分到某层中、出现频率较高的功能（类），比如连接数据库、获取系统参数、导出Excel表……<br></font>
+
+<font face="黑体" color="blue" size="5"><br>2. 为什么将Service（Dao）层设为接口层，单独拿出一个ServiceImpl（DaoImpl）作为实现层？<br></font><br><font face="黑体" color="black" size="5"><br>答：主要还是为了方便项目管理，增加代码的复用性。当项目很大、代码很多时，可能存在多种业务逻辑类似但具体业务有所区别的需求，此时让它们都集成同一个接口层就好了（只是情景之一）。<br></font><br><font face="黑体" color="blue" size="5"><br>3. 为什么要用service层封装？<br></font><br><font face="黑体" color="black" size="5"><br>答：这个问题就像Java为什么要分层一样。一般来说，某一个程序的有些业务流程需要连接数据库，有些不需要与数据库打交道而直接是一些业务处理，这样就需要我们整合起来到service中去，这样可以起到一个更好的开发与维护的作用，同时也是MVC设计模式中model层功能的体现。<br></font><br><font face="黑体" color="blue" size="5"><br>4. Entity、Pojo、JavaBean和DTO有什么区别？<br></font><br><font face="黑体" color="black" size="5"><br>答：Entity：实体bean，一般是用于ORM对象关系映射，一个实体映射成一张表，一般无业务逻辑代码，有些优秀框架中修改entity会直接同步到数据库。JavaBean：是一种Java语言写成的可重用组件，类必须是具体和公共的，并且具有无参数的构造器，可以把数据封装起来，把应用的业务逻辑和显示逻辑分离开，降低了开发的复杂程度和维护成本（说白了就是一种类的规范，符合这种规范的都可以叫JavaBean）。Pojo：简单的Java对象，实际就是普通JavaBeans，是为了避免和EJB混淆所创造的简称。DTO：数据传输对象（Data Transfer Object），是一种设计模式之间传输数据的软件应用系统。（其实一般开发很难也不必去感受它们的差别，开发多了感觉就来了）<br></font><br><font face="黑体" color="blue" size="5"><br>5.模型类和VO类分别是什么<br></font><br><font face="黑体" color="black" size="5"><br>答：模型类一般都会与数据库一一对应（见上文），但仅有模型类无法满足所有需求场景（多表查询）：对于一个商城网站，商品详情页面不仅要显示商品的一般信息，还要显示所属店家信息、店主信息、地理位置……此时数据库商品表中不可能存这么多字段（这会造成很大冗余），解决方案之一就是开发者手动分别查询商品表、店铺表、店主表数据然后将需要的数据拼接在一起传到前端，但这种方法会让开发者浪费不少时间。与此相对的另一个更好的方案是，我们可以将商品详情页需要的数据单独再封装成一个实体类——这便是VO类，我们在想要获取商品详情时单独写一个查询方法对应VO（可以直接将查询结果封装到VO中）便可实现想要的效果。简而言之，模型类对应数据库中“表”，VO类对应前端具体视图（或者说VO类对应数据库中“视图”）。<br></font>
+
+<h4 id="其它常用术语"><a href="#其它常用术语" class="headerlink" title="其它常用术语"></a>其它常用术语</h4><pre><code class="yml">PO(persistant object) 持久对象：
+</code></pre>
+<p>在o/r映射的时候出现的概念，如果没有o/r映射，没有这个概念存在了。通常对应数据模型(数据库),本身还有部分业务逻辑的处理。可以看成是与数据库中的表相映射的java对象。最简单的PO就是对应数据库中某个表中的一条记录，多个记录可以用PO的集合。PO中应该不包含任何对数据库的操作。</p>
+<pre><code class="yml">VO(value object) 值对象：
+</code></pre>
+<p>通常用于业务层之间的数据传递，和PO一样也是仅仅包含数据而已。但应是抽象出的业务对象,可以和表对应,也可以不,这根据业务的需要.个人觉得同DTO(数据传输对象),在web上传递。</p>
+<pre><code class="yml">O/R Mapper 对象/关系 映射：
+</code></pre>
+<p>定义好所有的mapping之后，这个O/R Mapper可以帮我们做很多的工作。通过这些mappings,这个O/R Mapper可以生成所有的关于对象保存，删除，读取的SQL语句，我们不再需要写那么多行的DAL代码了。</p>
+<h3 id="第二部分：展示环节"><a href="#第二部分：展示环节" class="headerlink" title="第二部分：展示环节"></a>第二部分：展示环节</h3><font face="黑体" color="black" size="5"><br>下面请我们组成员开始展示我们的程序。<br></font><br>以下是涉及的技术：<br><font face="黑体" color="red" size="6"><br>1.继承、抽象类和接口<br>2.java数据库操作（使用了properties配置文件和properties类操作）<br>3.java语言的输入输出和文件处理<br>4.多线程<br>5.泛型与容器类<br>6.图形界面设计<br>7.事件处理<br>8.异常处理<br>9.java网络编程（使用的TCP）<br></font><br><font face="黑体" color="black" size="5"><br>聊天界面图：<br></font><br><img src="https://s1.ax1x.com/2020/06/12/tqoohF.png" alt><br><br><br>### 技术补充<br><font face="黑体" color="black" size="5">关于properties配置文件和properties类操作方法总结。<br></font>
+
+<h4 id="一、properties文件"><a href="#一、properties文件" class="headerlink" title="一、properties文件"></a>一、properties文件</h4><font face="黑体" color="black" size="5">Properties文件是java中很常用的一种配置文件，文件后缀为“.properties”，属文本文件，文件的内容格式是“键=值”的格式，可以用“#”作为注释，java编程中用到的地方很多，运用配置文件，可以便于java深层次的解耦。<br><br>例如java应用通过JDBC连接数据库时，可以把数据库的配置写在配置文件 jdbc.properties：</font>
+
+<pre><code class="yml">driver=com.mysql.jdbc.Driver 
+jdbcUrl=jdbc:mysql://localhost:3306/user 
+user=root 
+password=123456
+</code></pre>
+<font face="黑体" color="black" size="5"><br>这样我们就可以通过加载properties配置文件来连接数据库，达到深层次的解耦目的，如果想要换成oracle或是DB2，我们只需要修改配置文件即可，不用修改任何代码就可以更换数据库。(就是封装，后面学java高级编程里面框架会涉及很多很多的封装)。<br></font>
+
+<h4 id="二、Properties类"><a href="#二、Properties类" class="headerlink" title="二、Properties类"></a>二、Properties类</h4><font face="黑体" color="black" size="5"><br>java中提供了配置文件的操作类Properties类（java.util.Properties）：<br><br>读取properties文件的通用方法：根据键得到value<br></font>
+
+<pre><code class="yml"> /**
+     * 读取config.properties文件中的内容，放到Properties类中
+     * @param filePath 文件路径
+     * @param key 配置文件中的key
+     * @return 返回key对应的value
+     */
+    public static String readConfigFiles(String filePath,String key) {
+        Properties prop = new Properties();
+        try{
+            InputStream inputStream = new FileInputStream(filePath);
+            prop.load(inputStream);
+            inputStream.close();
+            return prop.getProperty(key);
+        }catch (Exception e) {
+            e.printStackTrace();
+            System.out.println(&quot;未找到相关配置文件&quot;);
+            return null;
+        }
+    }
+</code></pre>
+<font face="黑体" color="black" size="5"><br>把配置文件以键值对的形式存放到Map中：<br></font>
+
+<pre><code class="yml">   /**
+     * 把.properties文件中的键值对存放在Map中
+     * @param inputStream 配置文件（inputstream形式传入）
+     * @return 返回Map
+     */
+    public Map&lt;String, String&gt; convertPropertityFileToMap(InputStream inputStream) {
+        try {
+            Properties prop = new Properties();
+            Map&lt;String, String&gt; map = new HashMap&lt;String, String&gt;();
+            if (inputStream != null) {
+                prop.load(inputStream);
+                Enumeration keyNames = prop.propertyNames();
+                while (keyNames.hasMoreElements()) {
+                    String key = (String) keyNames.nextElement();
+                    String value = prop.getProperty(key);
+                    map.put(key, value);
+                }
+                return map;
+            } else {
+                return null;
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+</code></pre>
+<h3 id="关于bug和可以改进的地方"><a href="#关于bug和可以改进的地方" class="headerlink" title="关于bug和可以改进的地方"></a>关于bug和可以改进的地方</h3><font face="黑体" color="black" size="5"><br>这个myQQ为了赶进度，存在很多bug和可以改进的地方。<br><br>1.头像功能实际上就是一个摆设，只是客户端所在的电脑上的文件，也就是说不能通过将文件发送到服务器的方式更改头像。（主要是没有设计后台的接口）<br>想换头像只能从客户端的代码里改或者是换资源。<br><br>2.发送文件双方可以显示但是接收不下来，可能是因为服务器的限制的问题，毕竟学生机，配置太低了。<br><br>3.后台服务器端的接口比较少，想继续丰富一些功能还有待后续开发。<br></font>
+
+<h2 id="课程收获-amp-amp-总结"><a href="#课程收获-amp-amp-总结" class="headerlink" title="课程收获&amp;&amp;总结"></a>课程收获&amp;&amp;总结</h2><font face="黑体" color="black" size="5"><br>java基础课虽然结束了，但是这只是一个学习的开始。<br>学了这个学期的java，再加上做了这个大作业，我深刻地感受到了，java的面向对象编程的思想是非常好的一种编程思想，我们不需要再去写冗余繁琐的底层代码了，调用各种类和方法真的真的很方便！就像牛顿曾经说过：“我之所以看的更远，是因为我站在前人的肩膀上”。java就是这样的一种语言。<br><br>上个学期的c++只学到了类和对象，而这学期学java，我们往更深层次的内容学习了。<br>1.java语言类的特性<br>2.继承、抽象类和接口<br>3.异常处理<br>4.java语言输入输出与文件处理<br>5.多线程<br>6.泛型与容器类<br>7.图形界面设计<br>8.事件处理<br>9.java小程序设计<br>10.java数据库程序设计<br>11.java网络编程<br>以上就是我这学期在之前基础上学的新内容。<br><br>当然，这些都只是基础，后面要学习的内容还非常的多，包括将来在开发上必用的java框架、设计程序必须学习的数据结构和算法等等，这些都要继续学习。<br>希望在今后的java高级编程和j2 EE的学习里我可以更上一层楼吧。也希望今后能做出更多有意思的程序或者游戏，所以说，经常练习是非常重要的，尤其是对于java这样的语言。<br><br>路漫漫其修远兮，吾将上下而求索。<br></font>
+
+<p><img src="https://s2.ax1x.com/2020/02/27/3aLDoV.png" alt></p>
+<h2 id="赞赏-amp-amp-广告"><a href="#赞赏-amp-amp-广告" class="headerlink" title="赞赏&amp;&amp;广告"></a>赞赏&amp;&amp;广告</h2><h3 id="这里打个广告："><a href="#这里打个广告：" class="headerlink" title="这里打个广告："></a>这里打个广告：</h3><p>想在ACM-ICPC这类国际竞赛上拿奖吗？<br>想成为别人眼中的计算机大佬吗？<br>重庆师范大学智能算法与竞赛协会致力于成为西南地区乃至全国最有影响力的算法竞赛协会，如果你想学习各种技术，如果你想进入ACM比赛的圈子，获得金牌，offer拿到手软，考研时研究生导师对你刮目相看，那就加入我们吧！</p>
+<h3 id="恰烂钱"><a href="#恰烂钱" class="headerlink" title="恰烂钱"></a>恰烂钱</h3><p>喜欢我的博客的话，不妨扫描下方二维码，进行赞赏哦~</p>
+
+        </div>
+        <!-- .entry-content -->
+        <div class="single-reward">
+          <div class="reward-open">赏
+            <div class="reward-main">
+              <ul class="reward-row">
+                <li class="alipay-code"><img src="https://s2.ax1x.com/2019/12/25/lFrYE6.png"></li>
+                <li class="wechat-code"><img src="https://s2.ax1x.com/2019/12/25/lFraCD.png"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
+        <footer class="post-footer">
+          <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
+          <div class="post-tags">
+          </div>
+          <div class="post-share">
+            <div class="social-share sharehidden share-component"></div>
+            <i class="iconfont show-share icon-forward"></i>
+          </div>
+        </footer><!-- .entry-footer -->
+      </article>
+      <!-- #post-## -->
+      <div class="toc" style="background: none;"></div>
+      <section class="post-squares nextprev">
+        
+        
+          
+            <div class="post-nepre full next">
+          
+            <a href="/2020/03/07/java解题/" rel="next">
+              <div class="background">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://s2.ax1x.com/2020/03/07/3OdNB6.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://s2.ax1x.com/2020/03/07/3OdNB6.jpg">
+              </div>
+              <span class="label">
+              Next Post</span>
+              <div class="info">
+                <h3>
+                java前三次作业解题</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+      </section>
+      
+<div id="vcomments"></div>
+<script>
+  window.onload = function(){
+      var valine = new Valine();
+      valine.init({
+        el: '#vcomments',
+        appId: "jvAeRazroIdQOig9bmQjeQgE-gzGzoHsz",
+        appKey: "DbDB0aOrg1vQiDmycfeDUOs4",
+        path: window.location.pathname,
+        placeholder: "你是我一生只会遇见一次的惊喜 ..."
+      })
+  }
+</script>
+
+      <section class="author-profile">
+        <div class="info" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+          <a href="https://space.bilibili.com/24262227" class="profile gravatar"><img src="https://s1.ax1x.com/2020/06/11/tqQf9x.th.png" itemprop="image" alt="杨泽华" height="70" width="70"></a>
+          <div class="meta">
+            <span class="title">Author</span>
+            <h3 itemprop="name">
+            <a href="https://space.bilibili.com/24262227" itemprop="url" rel="author">杨泽华</a>
+            </h3>
+          </div>
+        </div>
+        <hr>
+        <p><i class="iconfont icon-write"></i>疫情最后一课</p>
+      </section>
+    </main><!-- #main -->
+  </div><!-- #primary -->
+</div>
+
+
+
+    </div>    
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="请输入关键词..."/>
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '文章',
+            // PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+    <!-- <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 杨泽华<br>
+      powered_by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer> -->
+<footer id="colophon" class="site-footer" role="contentinfo">
+  <div class="site-info">
+    <div class="footertext">
+      <div class="img-preload">
+        <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/wordpress-rotating-ball-o.svg">
+        <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/disqus-preloader.svg">
+      </div>
+      <p style="color: #666666;">&copy 2020 yzh</p>
+    </div>
+    <div class="footer-device">
+    <p style="font-family: 'Ubuntu', sans-serif;">
+        <span style="color: #b9b9b9;">Theme <a href="https://github.com/honjun/hexo-theme-sakura" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Sakura</a> <i class="iconfont icon-sakura rotating" style="color: #ffc0cb;display:inline-block"></i> by <a href="https://2heng.xin/" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Mashiro</a>&<a href="https://www.hojun.cn/" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Hojun</a>, Powered by Hexo, Hosted by Coding Pages</a>
+        </span>
+      </p>
+    </div>
+  </div><!-- .site-info -->
+</footer>
+
+
+
+<!-- <script src="/js/tocbot.js"></script> -->
+<script type="text/javascript" src="/js/lib.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script type="text/javascript" src="/js/InsightSearch.js"></script>
+<script type="text/javascript" src="/js/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="/js/zoom.min.js"></script>
+<script type="text/javascript" src="/js/sakura-app.js"></script>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='//unpkg.com/valine@1.3.4/dist/Valine.min.js'></script>
+<script src="/js/botui.js"></script>
+<!-- 不蒜子 网页计数器 -->
+<script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script> -->
+<script type="text/javascript">
+/* <![CDATA[ */
+if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+  var Poi = {"pjax":"1","movies":{"url": "https://cdn.jsdelivr.net/gh/honjun/hojun@1.2","name":"Unbroken.mp4","live":"close"},"windowheight":"fixed","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
+} else {
+  var Poi = {"pjax":"1","movies":{"url": "https://cdn.jsdelivr.net/gh/honjun/hojun@1.2","name":"Unbroken.mp4","live":"open"},"windowheight":"auto","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
+}
+/* ]]> */
+
+</script>
+<script>
+$(document).ready(function() {
+  if ($(".toc").length > 0 && document.body.clientWidth > 1200) {
+    if ($(".pattern-center").length > 0) { //有图的情况
+      tocbot.init({
+          // Where to render the table of contents.
+          tocSelector: '.toc', // 放置目录的容器
+          // Where to grab the headings to build the table of contents.
+          contentSelector: '.entry-content', // 正文内容所在
+          // Which headings to grab inside of the contentSelector element.
+          scrollSmooth: true,
+          headingSelector: 'h1, h2, h3, h4, h5', // 需要索引的标题级别
+          headingsOffset: -400,
+          scrollSmoothOffset: -85
+      });
+    } else {
+      tocbot.init({
+          // Where to render the table of contents.
+          tocSelector: '.toc', // 放置目录的容器
+          // Where to grab the headings to build the table of contents.
+          contentSelector: '.entry-content', // 正文内容所在
+          // Which headings to grab inside of the contentSelector element.
+          scrollSmooth: true,
+          headingSelector: 'h1, h2, h3, h4, h5', // 需要索引的标题级别
+          headingsOffset: -85,
+          scrollSmoothOffset: -85
+      });
+    }
+    var offsetTop = $('.toc').offset().top - 95;
+    window.onscroll = function() {
+      var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+      if (scrollTop >= offsetTop) {
+        $('.toc').addClass('toc-fixed');
+      } else {
+        $('.toc').removeClass('toc-fixed');
+      }
+    }
+  }
+});
+</script>
+
+    <div class="openNav no-select" style="height: 50px;">
+      <div class="iconflat no-select" style="width: 50px; height: 50px;">
+        <div class="icon"></div>
+      </div>
+      <div class="site-branding search-form-submit">
+        <i class="iconfont js-toggle-search iconsearch icon-search"></i>
+      </div>
+    </div>
+  </section>
+  <div id="mo-nav" class="">
+  <div class="m-avatar">
+    <img src="https://s2.ax1x.com/2019/12/23/lpgrrt.png">
+  </div>
+  <p style="text-align: center; color: #333; font-weight: 900; font-family: 'Ubuntu', sans-serif; letter-spacing: 1.5px">Amadeusmzt</p>
+  <p style="text-align: center; word-spacing: 20px;">
+    
+      
+        <a href="http://github.com/honjun" class="fa fa-github" target="_blank" style="color: #333; margin-left:20px"></a>
+      
+        <a href="http://weibo.com/mashirozx?is_all=1" class="fa fa-weibo" target="_blank" style="color: #dd4b39; margin-left:20px"></a>
+      
+        <a href="https://wpa.qq.com/msgrd?v=3&uin=954655431&site=qq&menu=yes" class="fa fa-qq" target="_blank" style="color: #25c6fe; margin-left:20px"></a>
+      
+    
+  </p>
+  <ul id="menu-new-1" class="menu">
+    
+      <li>
+        <a href="/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-fort-awesome faa-shake" aria-hidden="true"></i>
+            首页
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/archives">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-archive faa-shake" aria-hidden="true"></i>
+            归档
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/categories/技术/">
+                  <i class="fa fa-code" aria-hidden="true"></i>
+                  技术
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/生活/">
+                  <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                  生活
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/资源/">
+                  <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                  资源
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/随想/">
+                  <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                  随想
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/转载/">
+                  <i class="fa fa-book" aria-hidden="true"></i>
+                  转载
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="javascript:;">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-list-ul faa-vertical" aria-hidden="true"></i>
+            清单
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/tags/悦读/">
+                  <i class="fa fa-th-list faa-bounce" aria-hidden="true"></i>
+                  书单
+                </a>
+              </li>
+            
+              <li>
+                <a href="/bangumi/">
+                  <i class="fa fa-film faa-vertical" aria-hidden="true"></i>
+                  番组
+                </a>
+              </li>
+            
+              <li>
+                <a href="/music/">
+                  <i class="fa fa-headphones" aria-hidden="true"></i>
+                  歌单
+                </a>
+              </li>
+            
+              <li>
+                <a href="/tags/图集/">
+                  <i class="fa fa-photo" aria-hidden="true"></i>
+                  图集
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="/comment/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-pencil-square-o faa-tada" aria-hidden="true"></i>
+            留言板
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/links/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-link faa-shake" aria-hidden="true"></i>
+            友人帐
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/donate/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-heart faa-pulse" aria-hidden="true"></i>
+            赞赏
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-leaf faa-wrench" aria-hidden="true"></i>
+            关于
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/about/">
+                  <i class="fa fa-meetup" aria-hidden="true"></i>
+                  我？
+                </a>
+              </li>
+            
+              <li>
+                <a href="/theme-sakura/">
+                  <i class="fa iconfont icon-sakura" aria-hidden="true"></i>
+                  主题
+                </a>
+              </li>
+            
+              <li>
+                <a href="/lab/">
+                  <i class="fa fa-cogs" aria-hidden="true"></i>
+                  Lab
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="/client/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-android faa-vertical" aria-hidden="true"></i>
+            客户端
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/atom.xml">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-rss faa-pulse" aria-hidden="true"></i>
+            RSS
+          </span>
+        </a>
+        
+      </li>
+    
+  </ul>
+  <p style="text-align: center; font-size: 13px; color: #b9b9b9;">&copy 2019 hexo-sakura</p>
+</div>
+<button onclick="topFunction()" class="mobile-cd-top" id="moblieGoTop" title="Go to top" style="display: none;"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+<!-- require MetingJS -->
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+<style>
+  .aplayer .aplayer-lrc {
+    height: 35px;
+  }
+  .aplayer .aplayer-lrc p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px !important;
+  }
+  .aplayer .aplayer-lrc p.aplayer-lrc-current{
+    color: #FF1493;
+  }
+  .aplayer.aplayer-narrow .aplayer-body{
+    left: -66px !important;
+  }
+  .aplayer.aplayer-fixed .aplayer-lrc {
+    display: none;
+  }
+  .aplayer .aplayer-lrc.aplayer-lrc-hide {
+      display:none !important;
+  }
+  .aplayer.aplayer-fixed .lrc-show {
+    display: block;
+    background: rgba(255, 255, 255, 0.8);
+  }
+</style>
+<meting-js
+
+    id="2660651585"
+
+    server="netease"
+
+    type="playlist"
+
+    fixed="true"
+
+    autoplay="false"
+
+    loop="all"
+
+    order="random"
+
+    preload="auto"
+
+    volume="0.7"
+
+    mutex="true"
+
+</meting-js>
+<script>
+  $(function(){
+    $('body').on('click', '.aplayer', function(){
+      if($('.aplayer-button').hasClass('aplayer-play')) {
+        $('.aplayer-lrc').removeClass('lrc-show');
+      } else {
+        $('.aplayer-lrc').addClass('lrc-show');
+      }
+    })
+  });
+</script>
+</body>
+</html>

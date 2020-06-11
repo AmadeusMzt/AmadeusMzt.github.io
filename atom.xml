@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>楊澤華の奇妙なblog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="/http://amadeusmzt.github.io/"/>
+  <updated>2020-06-11T16:15:04.758Z</updated>
+  <id>/http://amadeusmzt.github.io/</id>
+  
+  <author>
+    <name>杨泽华</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>java期末作业myQQ</title>
+    <link href="/http://amadeusmzt.github.io/2020/06/11/java%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95myqq/"/>
+    <id>/http://amadeusmzt.github.io/2020/06/11/java期末考试myqq/</id>
+    <published>2020-06-10T22:16:01.000Z</published>
+    <updated>2020-06-11T16:15:04.758Z</updated>
+    
+    <summary type="html">
+    
+      突如其来的期末考试，阻止了我的继续摸鱼。
+    
+    </summary>
+    
+      <category term="技术" scheme="/http://amadeusmzt.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="web" scheme="/http://amadeusmzt.github.io/tags/web/"/>
+    
+      <category term="悦读" scheme="/http://amadeusmzt.github.io/tags/%E6%82%A6%E8%AF%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>java前三次作业解题</title>
+    <link href="/http://amadeusmzt.github.io/2020/03/07/java%E8%A7%A3%E9%A2%98/"/>
+    <id>/http://amadeusmzt.github.io/2020/03/07/java解题/</id>
+    <published>2020-03-06T22:16:01.000Z</published>
+    <updated>2020-03-06T23:21:20.517Z</updated>
+    
+    <summary type="html">
+    
+      路漫漫其修远兮，吾将上下而求索
+    
+    </summary>
+    
+      <category term="技术" scheme="/http://amadeusmzt.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="web" scheme="/http://amadeusmzt.github.io/tags/web/"/>
+    
+      <category term="悦读" scheme="/http://amadeusmzt.github.io/tags/%E6%82%A6%E8%AF%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>学习java的第一天（java开坑）</title>
+    <link href="/http://amadeusmzt.github.io/2020/02/26/%E7%AC%AC%E4%B8%80%E5%A4%A9%E7%94%A8java/"/>
+    <id>/http://amadeusmzt.github.io/2020/02/26/第一天用java/</id>
+    <published>2020-02-26T02:16:01.000Z</published>
+    <updated>2020-02-27T02:24:32.883Z</updated>
+    
+    <summary type="html">
+    
+      路漫漫其修远兮，吾将上下而求索
+    
+    </summary>
+    
+      <category term="技术" scheme="/http://amadeusmzt.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="web" scheme="/http://amadeusmzt.github.io/tags/web/"/>
+    
+      <category term="悦读" scheme="/http://amadeusmzt.github.io/tags/%E6%82%A6%E8%AF%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>计算机组成原理课程笔记</title>
+    <link href="/http://amadeusmzt.github.io/2020/02/24/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/"/>
+    <id>/http://amadeusmzt.github.io/2020/02/24/计算机组成原理/</id>
+    <published>2020-02-24T02:16:01.000Z</published>
+    <updated>2020-02-26T22:14:38.593Z</updated>
+    
+    <summary type="html">
+    
+      principle of computer organization
+    
+    </summary>
+    
+      <category term="技术" scheme="/http://amadeusmzt.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="web" scheme="/http://amadeusmzt.github.io/tags/web/"/>
+    
+      <category term="悦读" scheme="/http://amadeusmzt.github.io/tags/%E6%82%A6%E8%AF%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>快乐风男——一道算法竞赛入门题</title>
+    <link href="/http://amadeusmzt.github.io/2019/12/25/%E7%AC%AC%E4%B8%80%E9%A2%98/"/>
+    <id>/http://amadeusmzt.github.io/2019/12/25/第一题/</id>
+    <published>2019-12-25T14:16:01.000Z</published>
+    <updated>2020-02-26T22:14:38.595Z</updated>
+    
+    <summary type="html">
+    
+      这就是E往无前的快感：带你们走进程序设计竞赛的Gate（大门）
+    
+    </summary>
+    
+      <category term="技术" scheme="/http://amadeusmzt.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="web" scheme="/http://amadeusmzt.github.io/tags/web/"/>
+    
+      <category term="悦读" scheme="/http://amadeusmzt.github.io/tags/%E6%82%A6%E8%AF%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ACM/蓝桥杯程序设计竞赛答疑</title>
+    <link href="/http://amadeusmzt.github.io/2019/12/24/%E6%9D%A8%E6%B3%BD%E5%8D%8E%20-%20%E5%89%AF%E6%9C%AC/"/>
+    <id>/http://amadeusmzt.github.io/2019/12/24/杨泽华 - 副本/</id>
+    <published>2019-12-24T14:16:01.000Z</published>
+    <updated>2019-12-24T02:57:47.106Z</updated>
+    
+    <summary type="html">
+    
+      在评论区下方留言，我在期末结束以后会解答各种疑问。
+    
+    </summary>
+    
+      <category term="技术" scheme="/http://amadeusmzt.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="web" scheme="/http://amadeusmzt.github.io/tags/web/"/>
+    
+      <category term="悦读" scheme="/http://amadeusmzt.github.io/tags/%E6%82%A6%E8%AF%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>自我意识的危机</title>
+    <link href="/http://amadeusmzt.github.io/2019/12/20/%E6%9D%A8%E6%B3%BD%E5%8D%8E%20-%20%E5%89%AF%E6%9C%AC%20(3)/"/>
+    <id>/http://amadeusmzt.github.io/2019/12/20/杨泽华 - 副本 (3)/</id>
+    <published>2019-12-20T14:16:01.000Z</published>
+    <updated>2019-12-23T10:01:31.169Z</updated>
+    
+    <summary type="html">
+    
+      人类是否会娱乐至死？
+    
+    </summary>
+    
+      <category term="生活" scheme="/http://amadeusmzt.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="web" scheme="/http://amadeusmzt.github.io/tags/web/"/>
+    
+      <category term="悦读" scheme="/http://amadeusmzt.github.io/tags/%E6%82%A6%E8%AF%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>重庆师范大学ACMer（算法竞赛协会）</title>
+    <link href="/http://amadeusmzt.github.io/2019/12/15/%E6%9D%A8%E6%B3%BD%E5%8D%8E/"/>
+    <id>/http://amadeusmzt.github.io/2019/12/15/杨泽华/</id>
+    <published>2019-12-15T14:16:01.000Z</published>
+    <updated>2019-12-20T13:06:47.019Z</updated>
+    
+    <summary type="html">
+    
+      算法协会
+    
+    </summary>
+    
+      <category term="技术" scheme="/http://amadeusmzt.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="web" scheme="/http://amadeusmzt.github.io/tags/web/"/>
+    
+      <category term="悦读" scheme="/http://amadeusmzt.github.io/tags/%E6%82%A6%E8%AF%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>量子领域的轨道秩序</title>
+    <link href="/http://amadeusmzt.github.io/2019/12/11/%E6%9D%A8%E6%B3%BD%E5%8D%8E%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
+    <id>/http://amadeusmzt.github.io/2019/12/11/杨泽华的博客/</id>
+    <published>2019-12-11T14:16:01.000Z</published>
+    <updated>2019-12-20T13:06:20.677Z</updated>
+    
+    <summary type="html">
+    
+      我做的第一个博客文章
+    
+    </summary>
+    
+      <category term="生活" scheme="/http://amadeusmzt.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="web" scheme="/http://amadeusmzt.github.io/tags/web/"/>
+    
+      <category term="悦读" scheme="/http://amadeusmzt.github.io/tags/%E6%82%A6%E8%AF%BB/"/>
+    
+  </entry>
+  
+</feed>
